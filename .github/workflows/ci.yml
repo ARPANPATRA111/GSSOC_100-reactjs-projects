@@ -2,7 +2,7 @@ name: CI
 
 on:
   push:
-    branches: [ "main" ]
+    branches: [ "main", "temp/pr98-ci-validation" ]
   pull_request:
     branches: [ "main" ]
   workflow_dispatch:
